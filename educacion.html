@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Educación</title>
+    <link rel="shortcut icon" href="https://learn.nextu.com/theme/image.php/cerulean/theme/1542227980/favicon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <img class="logo" src="logo_index.svg" alt="Pedro Cáceres">
+        <h1>Hoja de Vida</h1>
+        <h2>Pedro Luís Cáceres</h2>
+        <h3>Guatemala, Guatemala</h3>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="current"><a href="educacion.html">Educación</a></li>
+                <li><a href="experiencia.html">Experiencia</a></li>
+            </ul>
+        </nav>
+    </head>
+    <div class="content">
+        <h2>Educación</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <td>Año</td>
+                    <td>Institución</td>
+                    <td>Lugar</td>
+                    <td>¿Culminó?</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2016</td>
+                    <td>Colegio de educación</td>
+                    <td>Guatemala</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td>Colegio de educación diversificado</td>
+                    <td>Guatemala</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Colegio de educación superior</td>
+                    <td>Guatemala</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form-content">
+            <form action="#">
+                <h1>Agregar Estudios</h1>
+                    <strong><label for="year">Año</label></strong>
+                    <select name="year">
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                    </select>
+                    <strong><label for="institucion">Institución</label></strong>
+                    <input name="institucion" type="text" required maxlength="50">
+                        <strong><label for="lugar">Lugar</label></strong>
+                        <textarea name="lugar" type="text" required maxlength="50" rows="1"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div><a href="mailto:mail@hotmail.com">mi_correo@hotmail.com</a></div>
+        <div><a href="#">Tel. 44444444</a></div>
+        <div><a href="#">Guatemala, Guatemala</a></div>
+    </footer>
+</body>
+</html>
